@@ -1,0 +1,81 @@
+/* Grundlegende Stile für die Seite */
+body {
+    font-family: 'Lora', serif; /* Eine gut lesbare, elegante Schrift */
+    line-height: 1.7;
+    color: #333;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+/* Zentrierter Container für den Inhalt */
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #000;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Stil für die einzelnen Gedicht-Einträge */
+.gedicht {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: left;
+}
+
+.gedicht h3 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.autor {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.gedicht-text {
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+/* Container für die eingebetteten Player */
+.embed-container {
+    margin: 20px 0;
+}
+
+/* Footer-Stil */
+footer {
+    margin-top: 80px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #888;
+}
+
+a {
+    color: #0687f5; /* Eine dezente Link-Farbe */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
